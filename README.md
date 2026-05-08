@@ -1,2 +1,14 @@
-# Dynamic-Pricing-Agent-Tool
-A dynamic margin calculation function tool for e-commerce agents.
+# Dynamic Pricing Agent Tool
+
+这是一个为电商自动化运营 Agent 提供的 Function Calling 工具代码。
+
+## 核心痛点
+在复杂的电商大促场景（如跨店满减+店铺券叠加）中，传统依靠人工计算极易出错，导致利润受损。
+
+## 逻辑流
+该工具可供多模态大模型调用，接收商品出厂成本、平台满减规则及店铺优惠券参数，通过内置算法精准分摊优惠比例，逆向推导出在保证健康毛利率前提下的**最终到手价**与**实际毛利**。
+
+## 运行方式
+\`\`\`bash
+python margin_calculator.py
+\`\`\`
